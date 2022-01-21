@@ -155,9 +155,7 @@ const htmlTagRemover = (content) => {
             };
   
             newArr.push(newObj);
-          }
 
-          if(i === 0){
             newObj.items.push({
               title: `${obj[i].header}`,
               description: ``,
