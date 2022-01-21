@@ -159,8 +159,8 @@ const htmlTagRemover = (content) => {
 
           if(i === 0){
             newObj.items.push({
-              title: `${obj[i].block_description}`,
-              description: `${(obj[i].header ? obj[i].header + " &#13; ": "")}${obj[i].description ? obj[i].description : ""}`,
+              title: `${obj[i].header}`,
+              description: ``,
               block_img: obj[i].cover_image,
               block_type: "image",
               video_provider: obj[i].video_provider,
